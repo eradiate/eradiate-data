@@ -1,3 +1,3 @@
-# eradiate-data
+# Eradiate Data
 
-Data files for Eradiate
+This repository contains auxiliary data files used by the Eradiate test suite, etc.
