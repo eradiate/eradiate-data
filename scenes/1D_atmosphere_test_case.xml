@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene version="0.0.1">
+
+    <!-- Instanciate an integrator -->
+    <integrator type="path">
+        <!-- ... integrator parameters ... -->
+
+        <!-- Instanciate a sampler -->
+        <sampler type="pcg">
+            <!-- ... sampler parameters ... -->
+        </sampler>
+    </integrator>
+
+    <!-- Instantiate a directional camera -->
+    <sensor type="distant_sensor">
+        <!-- Specify the position and orientation of the camera -->
+        <transform name="toWorld">
+            <!-- Move the camera to an altitude of 120 -->
+            <translate z="120"/>
+
+            <!-- Move the camera along the x axis (120*tan30 = 69.28) -->
+            <translate x="69.28"/>
+
+            <!-- Make the camera look at the ground -->
+            <lookat origin="69.28, 0, 120" target="0, 0, 0"/>
+        </transform>
+
+        <!-- Instanciate a film -->
+        <film type="spectrums">
+            <!-- Specify the minimum resolution (1 pixel) -->
+            <integer name="width" value="1"/>
+            <integer name="height" value="1"/>
+        </film>
+    </sensor>
+
+    <!-- Instanciate a light source -->
+    <light type="distant_light">
+        <!-- Specify the direction (1/tan30 = 1.73) -->
+        <direction value="1,0,-1.73"/>
+
+        <!-- Specifies the solar spectrum -->
+        <spectrum name="spectral irradiance" filename="sorce_ssi_20030514.spd"/>
+            <!-- The solar spectrum is loaded from an external file.
+                 The file sorce_ssi_20030514.spd contains a single spectral
+                 point per line, with the corresponding wavelength in
+                 nanometers and the spectral irradiance value separated
+                 by a space. -->
+    </light>
+
+    <!-- Define a surface -->
+    <shape type="rectangle">
+        <!-- Expand the rectangle by a factor 1000 in both x and y directions -->
+        <transform name="toWorld">
+            <scale x="1000" y="1000"/>
+            <!-- The rectangle now covers the XY-range [-1000,-1000]x[1000,1000] -->
+        </transform>
+        <!-- By default, the rectangle has a normal that points in the
+             positive Z direction. -->
+
+        <!-- Add a bidirectional scattering distribution function -->
+        <bsdf type="rpv">
+            <string name="filename" value="parameters.spd">
+            <!-- The 4 parameters of the RPV surface reflectance model
+                 as a function of wavelength, are loaded from an external
+                 file. The file parameters.spd contains one set of
+                 parameters values per line, each corresponding to a
+                 different wavelength -->
+        </bsdf>
+    </shape>
+
+    <!-- Define the atmosphere -->
+        <medium type="mixed" id="atmosphere">
+            <!--Instanciate a heterogeneous medium -->
+            <medium type="heterogeneous">
+                <!-- Acquire thermodynamic state variables from an
+                     external data file -->
+                <volume name="thermodynamic variables" type="gridvolume">
+                    <string name="filename" value="US76.vol"
+                </volume>
+
+                <!-- Specify the scattering model -->
+                <volume name="scattering">
+                    <coefficient type="rayleigh"/>
+                    <phase type="rayleigh"/>
+                </volume>
+
+                <!-- Specify the absorption coefficient values -->
+                <data name="absorption coefficient" type="griddata">
+                    <string name="filename" value="look_up_table.dat"/>
+                </data>
+            </medium>
+
+            <!-- Instanciate a homogeneous medium -->
+            <medium type="homogeneous">
+                <!-- ... Aerosol parameters ... -->
+            </medium>
+        </medium>
+
+    <shape type="cube">
+        <!-- Rescale the shape into a 2000x2000x120 parallepiped -->
+        <transform name="toWorld">
+            <translate z="60"/>
+            <scale x="1000", y="1000", z="60"/>
+        </transform>
+
+        <!-- Attach the index-matched medium to the cube -->
+        <ref name="interior" id="atmosphere">
+    </shape>
+
+</scene>
