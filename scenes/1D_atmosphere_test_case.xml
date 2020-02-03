@@ -58,21 +58,21 @@
         <!-- By default, the rectangle has a normal that points in the
              positive Z direction. -->
 
-        <!-- Add a bidirectional scattering distribution function -->
-        <bsdf type="rpv">
+        <!-- Add a bidirectional reflectance distribution function -->
+        <brdf type="rpv">
             <string name="filename" value="parameters.spd">
             <!-- The 4 parameters of the RPV surface reflectance model
                  as a function of wavelength, are loaded from an external
                  file. The file parameters.spd contains one set of
                  parameters values per line, each corresponding to a
                  different wavelength -->
-        </bsdf>
+        </brdf>
     </shape>
 
     <!-- Define the atmosphere -->
         <medium type="mixed" id="atmosphere">
             <!--Instanciate a heterogeneous medium -->
-            <medium type="heterogeneous">
+            <medium type="heterogeneous" id="gaseous atmosphere">
                 <!-- Acquire thermodynamic state variables from an
                      external data file -->
                 <volume name="thermodynamic variables" type="gridvolume">
@@ -92,7 +92,7 @@
             </medium>
 
             <!-- Instanciate a homogeneous medium -->
-            <medium type="homogeneous">
+            <medium type="homogeneous" id="aerosol cloud">
                 <!-- ... Aerosol parameters ... -->
             </medium>
         </medium>
