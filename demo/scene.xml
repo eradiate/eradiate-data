@@ -1,7 +1,8 @@
-<scene version="2.0.0">
+<scene version="2.1.0">
 
 <default name="res" value="64"/>
 <default name="spp" value="4096"/>
+<default name="irrandiance" value="1e6"/>
 
   <!-- Flat rectangular diffuse surface with reflectance of 0.5 and dimensions
     200 km x 200 km. -->
@@ -16,7 +17,7 @@
 
   <!-- Homogeneous rayleigh-scattering plane-parallel atmosphere with dimensions
     200 km x 200 km x 40 km. Value of sigma_t is arbitrary. -->
-  <shape version="2.0.0" type="cube">
+  <shape type="cube">
     <transform name="to_world">
       <scale value="100, 100, 20"/>
       <translate value="0, 0, 20.1"/>
@@ -35,7 +36,7 @@
     1 W/km^2/nm. -->
   <emitter type="directional">
     <vector name="direction" value="0, -1, -2"/>
-    <spectrum name="irradiance" value="1."/>
+    <spectrum name="irradiance" value="$irradiance"/>
   </emitter>
 
   <!-- Perspective camera with a 45° zenith viewing angle -->
@@ -46,6 +47,7 @@
     <film type="hdrfilm">
       <integer name="width" value="$res"/>
       <integer name="height" value="$res"/>
+      <string name="component_format" value="float32"/>
       <string name="pixel_format" value="luminance"/>
       <rfilter type="box"/>
     </film>
