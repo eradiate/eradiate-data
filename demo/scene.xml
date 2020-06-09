@@ -2,7 +2,7 @@
 
 <default name="res" value="64"/>
 <default name="spp" value="4096"/>
-<default name="irrandiance" value="1e6"/>
+<default name="irradiance" value="1e6"/>
 
   <!-- Flat rectangular diffuse surface with reflectance of 0.5 and dimensions
     200 km x 200 km. -->
