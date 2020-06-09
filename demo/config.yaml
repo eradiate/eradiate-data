@@ -1,0 +1,19 @@
+mode:
+  type: mono
+  wavelength: 550.  # nm
+surface:
+  type: lambertian
+  reflectance: 0.5  # dimensionless
+atmosphere:
+  type: rayleigh_homogeneous
+  height: 100  # km
+  sigmas: 0.001  # km^-1
+illumination:
+  type: directional
+  zenith: 0.  # deg
+  azimuth: 0.  # deg
+  irradiance: 1.  # W/km^2/nm
+measure:
+  type: distant
+  zenith: [0., 10., 20., 30., 40., 50.]  # deg
+  azimuth: 180.  # deg
