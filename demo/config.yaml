@@ -12,7 +12,7 @@ illumination:
   type: directional
   zenith: 0.  # deg
   azimuth: 0.  # deg
-  irradiance: 1.  # W/km^2/nm
+  irradiance: 1800000.  # W/km^2/nm
 measure:
   type: distant
   zenith: [0., 10., 20., 30., 40., 50.]  # deg
