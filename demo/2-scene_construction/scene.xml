@@ -20,9 +20,9 @@
   <shape type="cube">
     <transform name="to_world">
       <scale value="100, 100, 20"/>
-      <translate value="0, 0, 20.1"/>
+      <translate value="0, 0, 20.001"/>
       <!-- The shape is translated upward so that the bottom face does not
-        coincide with the surface. -->
+        overlap with the surface. -->
     </transform>
     <bsdf type="null"/>
     <medium name="interior" type="homogeneous">
@@ -33,9 +33,9 @@
   </shape>
 
   <!-- Directional light source with zenith angle of 30° and irradiance of
-    1 W/km^2/nm. -->
+    1 W/m^2/nm. -->
   <emitter type="directional">
-    <vector name="direction" value="0, -1, -2"/>
+    <vector name="direction" value="-0.5, 0, -0.8660254"/>
     <spectrum name="irradiance" value="$irradiance"/>
   </emitter>
 
