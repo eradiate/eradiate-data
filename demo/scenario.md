@@ -38,7 +38,7 @@ Demo execution environment: Jupyter notebook
 	2. Populate its scene dictionary using the interface
 	3. Run the simulation for a single angular configuration
 	4. Run the simulation to get the BRDF for a single incoming direction
-	5. Plot the results using the BRDF viewer
+	5. Plot the results
 
 ## 3. Rayleigh solver application (10 min)
 
