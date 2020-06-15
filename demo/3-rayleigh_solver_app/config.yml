@@ -7,14 +7,16 @@ surface:
 atmosphere:
   type: rayleigh_homogeneous
   height: 100  # km
+  width: 10000  # km
   sigma_s_params:
     refractive_index: 1.0003  # dimensionless
 illumination:
   type: directional
   zenith: 0.  # deg
   azimuth: 0.  # deg
-  irradiance: 1800000.  # W/km^2/nm
+  irradiance: 1.8e+6  # W/km^2/nm
 measure:
-  type: distant
-  zenith: [0., 10., 20., 30., 40., 50., 60., 70., 80., 90.]  # deg
-  azimuth: [0., 90., 180., 270.]  # deg
+  type: hemispherical
+  spp: 32000
+  zenith_res: 10.  # deg
+  azimuth_res: 20.  # deg
