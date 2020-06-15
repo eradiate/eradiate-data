@@ -58,5 +58,5 @@ Demo execution environment: Jupyter notebook, then terminal
 ## Todo
 
 - [x] Finish work on scene generator architecture
-- [ ] Improve BRDFView class performance (vectorise evaluation)
+- [x] Improve BRDFView class performance (vectorise evaluation)
 - [ ] Investigate system test with scattering
