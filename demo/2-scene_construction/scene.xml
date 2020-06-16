@@ -2,7 +2,7 @@
 
 <default name="res" value="64"/>
 <default name="spp" value="4096"/>
-<default name="irradiance" value="1e6"/>
+<default name="irradiance" value="1.8e6"/>
 
   <!-- Flat rectangular diffuse surface with reflectance of 0.5 and dimensions
     200 km x 200 km. -->
@@ -16,7 +16,7 @@
   </shape>
 
   <!-- Homogeneous rayleigh-scattering plane-parallel atmosphere with dimensions
-    200 km x 200 km x 40 km. Value of sigma_t is arbitrary. -->
+    200 km x 200 km x 40 km. Value of sigma_t is arbitrary but realistic. -->
   <shape type="cube">
     <transform name="to_world">
       <scale value="100, 100, 20"/>
@@ -32,8 +32,8 @@
     </medium>
   </shape>
 
-  <!-- Directional light source with zenith angle of 30° and irradiance of
-    1 W/m^2/nm. -->
+  <!-- Directional light source with zenith angle of 30° and parametrised
+    irradiance value (default: 1.8e6 W/km^2/nm). -->
   <emitter type="directional">
     <vector name="direction" value="-0.5, 0, -0.8660254"/>
     <spectrum name="irradiance" value="$irradiance"/>
