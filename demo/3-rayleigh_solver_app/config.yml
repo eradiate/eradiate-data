@@ -3,20 +3,17 @@ mode:
   wavelength: 760.  # nm
 surface:
   type: lambertian
-  reflectance: 0.35  # dimensionless
+  reflectance: 0.5  # dimensionless
 atmosphere:
   type: rayleigh_homogeneous
-  height: 100.  # km
-  width: 10000.  # km
-  sigma_s_params:
-    refractive_index: 1.0003  # dimensionless
+  height: 40.  # km
 illumination:
   type: directional
-  zenith: 0.  # deg
+  zenith: 30.  # deg
   azimuth: 0.  # deg
   irradiance: 1.8e+6  # W/km^2/nm
 measure:
   type: hemispherical
   spp: 32000  # dimensionless
   zenith_res: 10.  # deg
-  azimuth_res: 20.  # deg
+  azimuth_res: 10.  # deg
