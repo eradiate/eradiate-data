@@ -1,6 +1,6 @@
 mode:
   type: mono
-  wavelength: 760.  # nm
+  wavelength: 577.  # nm
 surface:
   type: lambertian
   reflectance: 0.5  # dimensionless
