@@ -1,0 +1,1 @@
+This directory contains resources required to run some of the tests included with Eradiate.
