@@ -3,7 +3,7 @@ from copy import copy
 import numpy as np
 import xarray as xr
 
-from eradiate.scenes.atmosphere.heterogeneous import _write_binary_grid3d
+from eradiate.scenes.atmosphere.heterogeneous import write_binary_grid3d
 
 
 def make_data():
@@ -62,4 +62,4 @@ for varname in ["sigma_t", "sigma_a", "sigma_s", "albedo"]:
     filename = f"{varname}.vol"
     filenames[varname] = filename
     data = ds[varname]
-    _write_binary_grid3d(filename, data)
+    write_binary_grid3d(filename, data)
