@@ -4,18 +4,14 @@ from datetime import datetime
 import xarray as xr
 
 
-def lorentzian_pdf(x, x0=0., gamma=1.):
-    """Computes the Lorentz probability density function.
-    """
-    return (1 / (pi * gamma)) * square(gamma) / (square(x-x0) + square(gamma))
-
 def make_dataset():
     """This function generates a test absorption cross section data set which
     can then be used to extract absorption cross section and compute the
     monochromatic absorption coefficient.
 
     The data set includes one absorbing species and can be interpolated in
-    pressure and wavenumber values.
+    pressure and wavenumber values. The absorption cross section data is
+    completely fake.
     """
 
     # pressure values
@@ -24,19 +20,15 @@ def make_dataset():
 
     # wavenumber values
     n_wv = 10001
-    wv = np.linspace(18000., 18010., num=n_wv)  # [cm^-1]
-
-    # pressure dependence of line width and line position
-    gamma_ref = 1e-5
-    p_ref = 1e2
-    gamma = (p-p_ref) * gamma_ref
-    x0 = 18005. + (p-p_ref) * 1e-5
+    wv_start = 18000.
+    wv_stop = 18010.
+    wv = np.linspace(wv_start, wv_stop, num=n_wv)  # [cm^-1]
 
     # absorption cross section data
-    intensity = 1e-25  # [cm^3]
     data = np.zeros((1, n_p, n_wv))
+    wv_center = (wv_start + wv_stop) / 2.
     for i, pressure in enumerate(p):
-        data[0, i] = lorentzian_pdf(wv, x0=x0[i], gamma=gamma[i])
+        data[0, i] = (wv_center - wv_start) - np.abs(wv - wv_center) + i
 
     function_name = "eradiate-data/tests/datasets/absorption_cross_section/make_dataset.py"
 
