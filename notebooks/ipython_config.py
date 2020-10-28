@@ -16,4 +16,4 @@ c.InlineBackend.rc.update({"figure.dpi": 80})
 
 # Display figures in raster format
 c.InlineBackend.figure_formats = {'png', 'jpg'}
-c.InlineBackend.print_figure_kwargs.update({'quality' : 95})
+#c.InlineBackend.print_figure_kwargs.update({'quality' : 95})
