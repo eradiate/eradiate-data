@@ -17,7 +17,7 @@ illumination:
       type: uniform
       value: 1.8e+6  # W/km^2/nm
 measure:
-  - type: hemispherical
+  - type: toa_lo_hsphere
     spp: 32000  # dimensionless
     zenith_res: 10.  # deg
     azimuth_res: 10.  # deg
