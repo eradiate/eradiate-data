@@ -17,7 +17,7 @@ illumination:
     value: 1.8e+6
     value_units: W/km**2/nm
 measure:
-- type: toa_lo_hsphere
+- type: toa_hsphere
   spp: 32000
   zenith_res: 5.
   azimuth_res: 5.
