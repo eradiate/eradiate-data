@@ -4,7 +4,7 @@ mode:
 surface:
   type: rpv
 atmosphere:
-  type: rayleigh_homogeneous
+  type: homogeneous
   height: 120.
   height_units: km
   sigma_s: 1.e-4

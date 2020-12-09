@@ -7,7 +7,7 @@ surface:
       type: uniform
       value: 0.5  # dimensionless
 atmosphere:
-  type: rayleigh_homogeneous
+  type: homogeneous
   height: 40.  # km
 illumination:
   type: directional
