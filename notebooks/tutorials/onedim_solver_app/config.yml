@@ -5,8 +5,8 @@ surface:
   type: rpv
 atmosphere:
   type: homogeneous
-  height: 120.
-  height_units: km
+  toa_altitude: 120.
+  toa_altitude_units: km
   sigma_s: 1.e-4
 illumination:
   type: directional
@@ -16,8 +16,8 @@ illumination:
     type: uniform
     value: 1.8e+6
     value_units: W/km**2/nm
-measure:
-- type: toa_hsphere
-  spp: 32000
-  zenith_res: 5.
-  azimuth_res: 5.
+measures:
+  - type: toa_hsphere
+    spp: 32000
+    zenith_res: 5.
+    azimuth_res: 5.

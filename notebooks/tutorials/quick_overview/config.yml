@@ -3,20 +3,20 @@ mode:
   wavelength: 550.  # nm
 surface:
   type: lambertian
-  reflectance: 
-      type: uniform
-      value: 0.5  # dimensionless
+  reflectance:
+    type: uniform
+    value: 0.5  # dimensionless
 atmosphere:
   type: homogeneous
-  height: 40.  # km
+  toa_altitude: 40.  # km
 illumination:
   type: directional
   zenith: 30.  # deg
   azimuth: 0.  # deg
-  irradiance: 
-      type: uniform
-      value: 1.8e+6  # W/km^2/nm
-measure:
+  irradiance:
+    type: uniform
+    value: 1.8e+6  # W/km^2/nm
+measures:
   - type: toa_hsphere
     spp: 32000  # dimensionless
     zenith_res: 10.  # deg
