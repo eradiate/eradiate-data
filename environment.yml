@@ -1,0 +1,14 @@
+channels:
+  - eradiate
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  # main
+  - numpy
+  - xarray
+  - jupyterlab
+  - pip
+  - pip-tools
+  - setuptools
+  - dvc
