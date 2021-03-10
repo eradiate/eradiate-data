@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-origin
+['remote "dvc-origin"']
+    url = s3://eradiate-data
