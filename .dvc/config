@@ -2,5 +2,6 @@
     remote = dvc-origin
 ['remote "dvc-origin"']
     url = s3://eradiate-data
+    acl = public-read
 ['remote "dvc-public"']
     url = https://eradiate-data.s3.amazonaws.com
