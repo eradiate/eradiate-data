@@ -1,0 +1,4 @@
+outs:
+- md5: 966ed278b9d9e420260e8a31d7cf1b5f
+  size: 732845
+  path: test_dataset.nc
