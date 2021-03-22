@@ -1,0 +1,4 @@
+outs:
+- md5: e6c6673fe74dec2c5a7c959108e08f18
+  size: 346552
+  path: blackbody_sun.nc

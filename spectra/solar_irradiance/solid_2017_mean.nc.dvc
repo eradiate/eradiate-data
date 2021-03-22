@@ -1,0 +1,4 @@
+outs:
+- md5: 8d91d64ef20a5e6348ff42c1c3c99de8
+  size: 23128
+  path: solid_2017_mean.nc
