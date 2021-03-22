@@ -1,0 +1,4 @@
+outs:
+- md5: 428f0ad4455c3f27e0d91c9979a02929
+  size: 27348
+  path: sentinel-3a-slstr-s9.nc

@@ -1,0 +1,4 @@
+outs:
+- md5: c5397a7f835132be791608c483c7fc92
+  size: 104163
+  path: sentinel-3b-slstr-s2.nc
