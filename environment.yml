@@ -11,5 +11,5 @@ dependencies:
   - pip
   - pip-tools
   - setuptools
-  - dvc[s3]
+  - dvc-s3
   - awscli
