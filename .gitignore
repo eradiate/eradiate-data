@@ -2,4 +2,5 @@
 .ipynb_checkpoints/
 *.pyc
 spectra/absorption/*
-download/*
+downloads/*
+!downloads/files.yml
