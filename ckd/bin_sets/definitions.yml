@@ -16,3 +16,11 @@
   wres: 10.0
   wmin: 275.0
   wmax: 2405.0
+
+1nm:
+  description: 1nm-wide bins.
+  quadrature_type: gauss_legendre
+  quadrature_n: 16
+  wres: 1.0
+  wmin: 279.5
+  wmax: 2400.5
