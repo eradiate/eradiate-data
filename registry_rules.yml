@@ -6,6 +6,7 @@ include:
   - "ckd/**/*.nc"
   - "spectra/**/*.nc"
   - "tests/**/*.nc"
+  - "tests/**/*.def"
   - "thermoprops/**/*.nc"
 
 exclude:
