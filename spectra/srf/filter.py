@@ -44,10 +44,10 @@ def update_attrs(srf: xr.Dataset, filter_name: str, filter_attr: str) -> None:
     srf: dataset
         Data set whose metadata to update.
 
-    filter_name:
+    filter_name: str
         Filter name.
 
-    filter_attr:
+    filter_attr: str
         Content of the 'filter' attribute.
     """
     # filter attribute
