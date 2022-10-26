@@ -227,6 +227,7 @@ spectra/srf/sentinel_2a-msi-7.nc sha256:427588607068721730457d725b372844e01537df
 spectra/srf/sentinel_2a-msi-8-raw.nc sha256:06160a3843cddaf36de0add5d733c9d17eb15f17f4294de9e1e6b1fc569651fd
 spectra/srf/sentinel_2a-msi-8.nc sha256:9bb974129005ce71902a75b9f97800bae8a60ae8b685be5abc7dd66c21ba025b
 spectra/srf/sentinel_2a-msi-8a-raw.nc sha256:f9f653bda6decbb7b4f837bcb2c3add5eed64d2d7379f1438b36b686a922dc79
+spectra/srf/sentinel_2a-msi-8a.nc sha256:0538ab0ef941261b7980b729be18f0ef0cc379e79a3be36176e79d5bf1437e8b
 spectra/srf/sentinel_2a-msi-9-raw.nc sha256:1e7a2a7b3bfa1fbddd39718ecd42476d82e391ee94da10701a5fd731baf80aff
 spectra/srf/sentinel_2a-msi-9.nc sha256:41f6f87111d9099a16f70341d53e2274d2be3b65c5bbaf99101c387f37bab6dd
 spectra/srf/sentinel_2b-msi-1-raw.nc sha256:5fa77c4d25c251ac85cbefeb5881bc7da170aa06d1eff9d99ef53375088a24c5
