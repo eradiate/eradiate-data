@@ -41,6 +41,7 @@ irrelevant trailing and leading zeros have been removed in a trimming process.
 Additionally, some dataset are made available in a so-called _prepared_ version,
 where the datasets have been further filtered to yield a better
 **simulation speed versus accuracy tradeoff**.
+The filtering parameters are stored in `prepared.json`.
 
 Refer to the Eradiate documentation for more information about spectral response
 function trimming and filtering.
