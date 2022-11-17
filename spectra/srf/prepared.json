@@ -1,1 +1,608 @@
-{"sentinel_2a-msi-12": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-12-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-12.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": 99.9}, "sentinel_2a-msi-11": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-11-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-11.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": 99.9}, "sentinel_2a-msi-10": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-10-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-10.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": 99.9}, "sentinel_2a-msi-9": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-9-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-9.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-8": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-8-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-8.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": 99.9}, "sentinel_2a-msi-7": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-7-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-7.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-6": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-6-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-6.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-5": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-5-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-5.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-3": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-3-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-3.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-2": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-2-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-2.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": 0.05, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-1": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-1-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-1.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": 0.01, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-4": {"srf": "resources/data/spectra/srf/sentinel_2a-msi-4-raw.nc", "path": "resources/data/spectra/srf/sentinel_2a-msi-4.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": null, "wmin": null, "wmax": null, "percentage": null}, "sentinel_2a-msi-8a": {"srf": "spectra/srf/sentinel_2a-msi-8a-raw.nc", "path": "spectra/srf/sentinel_2a-msi-8a.nc", "verbose": true, "show_plot": true, "dry_run": false, "interactive": true, "trim_prior": true, "threshold": 0.01, "wmin": null, "wmax": null, "percentage": null}}
+{
+  "sentinel_2a-msi-12": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-12-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-12.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": 99.9
+  },
+  "sentinel_2a-msi-11": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-11-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-11.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": 99.9
+  },
+  "sentinel_2a-msi-10": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-10-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-10.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": 99.9
+  },
+  "sentinel_2a-msi-9": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-9-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-9.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-8": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-8-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-8.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": 99.9
+  },
+  "sentinel_2a-msi-7": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-7-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-7.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-6": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-6-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-6.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-5": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-5-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-5.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-3": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-3-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-3.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-2": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-2-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-2.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": 0.05,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-1": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-1-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-1.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": 0.01,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-4": {
+    "srf": "resources/data/spectra/srf/sentinel_2a-msi-4-raw.nc",
+    "path": "resources/data/spectra/srf/sentinel_2a-msi-4.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "sentinel_2a-msi-8a": {
+    "srf": "spectra/srf/sentinel_2a-msi-8a-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-8a.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": true,
+    "trim_prior": true,
+    "threshold": 0.01,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "jpss1-viirs-m1": {
+    "srf": "spectra/srf/jpss1-viirs-m1-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m1.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 394.9803257109153,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 428.64692239533633,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m2": {
+    "srf": "spectra/srf/jpss1-viirs-m2-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m2.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 428.6593042789297,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 462.43980249787927,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m3": {
+    "srf": "spectra/srf/jpss1-viirs-m3-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m3.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 470.4962139754507,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 507.9321236249293,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m4": {
+    "srf": "spectra/srf/jpss1-viirs-m4-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m4.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 538.3974769759903,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 575.4114341116486,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m5": {
+    "srf": "spectra/srf/jpss1-viirs-m5-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m5.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 647.8957348125721,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 687.288698103325,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m7": {
+    "srf": "spectra/srf/jpss1-viirs-m7-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m7.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 831.4548735730506,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 903.6206896085104,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m8": {
+    "srf": "spectra/srf/jpss1-viirs-m8-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m8.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 1214.17166702721,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 1267.7423474518616,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m9": {
+    "srf": "spectra/srf/jpss1-viirs-m9-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m9.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 1361.5727165538835,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 1390.7481951615794,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m10": {
+    "srf": "spectra/srf/jpss1-viirs-m10-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m10.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 1544.041784884999,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 1665.2192049804032,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m11": {
+    "srf": "spectra/srf/jpss1-viirs-m11-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m11.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 2206.7437400521912,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 2311.0879186026714,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m12": {
+    "srf": "spectra/srf/jpss1-viirs-m12-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m12.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 3500.5362673010422,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 3898.896524216487,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m13": {
+    "srf": "spectra/srf/jpss1-viirs-m13-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m13.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 3913.2464519248665,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 4226.2176861317585,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m14": {
+    "srf": "spectra/srf/jpss1-viirs-m14-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m14.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 8260.481934421181,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 8907.757521377489,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m15": {
+    "srf": "spectra/srf/jpss1-viirs-m15-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m15.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 9757.6564946332,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 11676.708897098404,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m16": {
+    "srf": "spectra/srf/jpss1-viirs-m16-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m16.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 10992.844884065695,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 12749.729149965255,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m16a": {
+    "srf": "spectra/srf/jpss1-viirs-m16a-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m16a.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 11006.970488469247,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 12736.733625883076,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m16b": {
+    "srf": "spectra/srf/jpss1-viirs-m16b-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m16b.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 10978.792212755907,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 12762.753482350123,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-i1": {
+    "srf": "spectra/srf/jpss1-viirs-i1-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-i1.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 568.9795071798618,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 717.8276393169243,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-i2": {
+    "srf": "spectra/srf/jpss1-viirs-i2-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-i2.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 831.3500374887406,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 903.508419655808,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-i3": {
+    "srf": "spectra/srf/jpss1-viirs-i3-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-i3.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 1542.140792779121,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 1665.7438155511318,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-i4": {
+    "srf": "spectra/srf/jpss1-viirs-i4-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-i4.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 3379.484820185309,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 4120.546425251624,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-i5": {
+    "srf": "spectra/srf/jpss1-viirs-i5-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-i5.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 9835.043154762228,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 13129.543549294533,
+      "units": "nanometer"
+    },
+    "percentage": null
+  },
+  "jpss1-viirs-m6": {
+    "srf": "spectra/srf/jpss1-viirs-m6-raw.nc",
+    "path": "spectra/srf/jpss1-viirs-m6.nc",
+    "verbose": false,
+    "show_plot": false,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 732.5992774533386,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 759.7473775362582,
+      "units": "nanometer"
+    },
+    "percentage": null
+  }
+}
