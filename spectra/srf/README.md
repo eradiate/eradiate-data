@@ -30,7 +30,7 @@ relevant, the following data set attributes should be provided:
 * `reference` (str)
 * `comment` (str)
 
-and the attribute `Conventions` should be set to `"CF-1.9"`.
+and the attribute `Conventions` should be set (e.g., `"CF-1.10"`).
 
 ## Raw versus prepared data sets
 
