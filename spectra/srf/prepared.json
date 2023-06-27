@@ -604,5 +604,96 @@
       "units": "nanometer"
     },
     "percentage": null
+  },
+  "aqua-modis-10": {
+    "srf": "spectra/srf/aqua-modis-10-raw.nc",
+    "path": "spectra/srf/aqua-modis-10.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.002,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-11": {
+    "srf": "spectra/srf/aqua-modis-11-raw.nc",
+    "path": "spectra/srf/aqua-modis-11.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.001,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-12": {
+    "srf": "spectra/srf/aqua-modis-12-raw.nc",
+    "path": "spectra/srf/aqua-modis-12.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.001,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-13": {
+    "srf": "spectra/srf/aqua-modis-13-raw.nc",
+    "path": "spectra/srf/aqua-modis-13.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.001,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-14": {
+    "srf": "spectra/srf/aqua-modis-14-raw.nc",
+    "path": "spectra/srf/aqua-modis-14.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.001,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-15": {
+    "srf": "spectra/srf/aqua-modis-15-raw.nc",
+    "path": "spectra/srf/aqua-modis-15.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.005,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
+  },
+  "aqua-modis-16": {
+    "srf": "spectra/srf/aqua-modis-16-raw.nc",
+    "path": "spectra/srf/aqua-modis-16.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": 0.001,
+    "wmin": null,
+    "wmax": null,
+    "percentage": null
   }
 }
