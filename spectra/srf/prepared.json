@@ -1,7 +1,7 @@
 {
   "sentinel_2a-msi-12": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-12-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-12.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-12-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-12.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -13,8 +13,8 @@
     "percentage": 99.9
   },
   "sentinel_2a-msi-11": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-11-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-11.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-11-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-11.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -26,8 +26,8 @@
     "percentage": 99.9
   },
   "sentinel_2a-msi-10": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-10-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-10.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-10-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-10.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -39,8 +39,8 @@
     "percentage": 99.9
   },
   "sentinel_2a-msi-9": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-9-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-9.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-9-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-9.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -52,8 +52,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-8": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-8-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-8.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-8-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-8.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -65,8 +65,8 @@
     "percentage": 99.9
   },
   "sentinel_2a-msi-7": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-7-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-7.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-7-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-7.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -78,8 +78,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-6": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-6-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-6.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-6-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-6.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -91,8 +91,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-5": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-5-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-5.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-5-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-5.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -104,8 +104,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-3": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-3-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-3.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-3-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-3.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -117,8 +117,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-2": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-2-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-2.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-2-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-2.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -130,8 +130,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-1": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-1-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-1.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-1-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-1.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
@@ -143,8 +143,8 @@
     "percentage": null
   },
   "sentinel_2a-msi-4": {
-    "srf": "resources/data/spectra/srf/sentinel_2a-msi-4-raw.nc",
-    "path": "resources/data/spectra/srf/sentinel_2a-msi-4.nc",
+    "srf": "spectra/srf/sentinel_2a-msi-4-raw.nc",
+    "path": "spectra/srf/sentinel_2a-msi-4.nc",
     "verbose": true,
     "show_plot": true,
     "dry_run": false,
