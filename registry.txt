@@ -45,6 +45,7 @@ spectra/srf/aqua-modis-16.nc sha256:26f830e4e4d1dbdd0a74d3b2859da9a80ee76b6ee149
 spectra/srf/aqua-modis-2-raw.nc sha256:3fb4b941ea522baac213d07e6050636d441704f1a9a9a8fb2846f82899f85fac
 spectra/srf/aqua-modis-3-raw.nc sha256:9048769a50d30dbd84cb4db75f491a7710ba93ea24f72853bd84ec758c5dad36
 spectra/srf/aqua-modis-4-raw.nc sha256:551e0b99541ba6b693537d011bb64242b69b57dc31ce77b87dcad98018632d1c
+spectra/srf/aqua-modis-4.nc sha256:89bb1aecfe1b852f1326a1dc70e5c0df9e46212f818e70f4ba372e1fe2de8c47
 spectra/srf/aqua-modis-5-raw.nc sha256:f97985b188020d42471f41717dbcf1753ead381f4a03b72e2f3e73d52c8618a7
 spectra/srf/aqua-modis-6-raw.nc sha256:40b8b8bce1f099c2e698ff775d5cbe038afdd4114cb303a752cfd926a947d507
 spectra/srf/aqua-modis-7-raw.nc sha256:51f2be1459ca801e5120de5a5c4c10bec76f59c462f078ef85c79122576b91aa

@@ -5789,5 +5789,24 @@
       "units": "nanometer"
     },
     "percentage": null
+  },
+  "aqua-modis-4": {
+    "srf": "spectra/srf/aqua-modis-4-raw.nc",
+    "path": "spectra/srf/aqua-modis-4.nc",
+    "verbose": true,
+    "show_plot": true,
+    "dry_run": false,
+    "interactive": false,
+    "trim_prior": true,
+    "threshold": null,
+    "wmin": {
+      "magnitude": 511.7914047241211,
+      "units": "nanometer"
+    },
+    "wmax": {
+      "magnitude": 590.2085952758789,
+      "units": "nanometer"
+    },
+    "percentage": null
   }
 }
